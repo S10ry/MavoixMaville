@@ -24,6 +24,14 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Remember to include jQuery :) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+<!-- jQuery Modal -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
     
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -58,29 +66,23 @@
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li><a href="#home-section" class="nav-link">Accueil</a></li>
-                <li><a href="#about-section" class="nav-link">Qui sommes nous</a></li>
-                <li><a href="#team-section" class="nav-link">L'equipe</a></li>
-               <!-- <li class="has-children">
+
+                
+               <li class="has-children">
                   <a href="#about-section" class="nav-link">Qui sommes nous</a>
                   <ul class="dropdown">
+                    <li><a href="#about-section" class="nav-link">Sori Dembele</a></li>
                     <li><a href="#team-section" class="nav-link">L'equipe</a></li>
-                    <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
-                    <li><a href="#faq-section" class="nav-link">FAQ</a></li>
-                    <li class="has-children">
-                      <a href="#">More Links</a>
-                      <ul class="dropdown">
-                        <li><a href="#">Menu One</a></li>
-                        <li><a href="#">Menu Two</a></li>
-                        <li><a href="#">Menu Three</a></li>
-                      </ul>
-                    </li>
                   </ul>
-                </li>-->
+                </li>
+
                 
-                <li><a href="#portfolio-section" class="nav-link">Gallerie</a></li>
+                <li><a href="#portfolio-section" class="nav-link">Galerie</a></li>
                 <!--<li><a href="#services-section" class="nav-link">Services</a></li>
                 <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                <li><a href="#blog-section" class="nav-link">Blog</a></li>-->
+                <li><a href="#blog-section" class="nav-link">Blog</a>
+                <li><a href="#pricing-section" class="nav-link">Pricing</a></li>
+                    <li><a href="#faq-section" class="nav-link">FAQ</a></li></li>-->
                 <li><a href="#contact-section" class="nav-link">Nous contacter</a></li>
               </ul>
             </nav>
@@ -93,17 +95,18 @@
       </div>
       
     </header>
-
   
      
-    <div class="site-blocks-cover overlay" style="background-image: url(images/home.jpg);" data-aos="fade" id="home-section">
+    <div class="site-blocks-cover overlay" style="background-image: url(images/header.jpg);" data-aos="fade" id="home-section">
 
       <div class="container">
         <div class="row align-items-center justify-content-center">
 
           
           <div class="col-md-8 mt-lg-5 text-center">
-            <h1 class="text-uppercase mb-5" data-aos="fade-up">Ma voix, ma ville</h1>
+            <h1 class="text-uppercase mb-5" data-aos="fade-up"></h1>
+
+
             
             <div data-aos="fade-up" data-aos-delay="100">
               <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Rejoignez nous</a>
@@ -131,18 +134,20 @@
         <div class="row">
           <div class="col-lg-6 mb-5" data-aos="fade-up" data-aos-delay="">
             <figure class="circle-bg">
-            <img src="images/qui.jpg" alt="Image" class="img-fluid">
+            <img src="images/sori.jpg" alt="Image" class="img-fluid">
             </figure>
           </div>
           <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
             <div class="mb-4">
               <h3 class="h3 mb-4 text-black">Qui est Sori Dembele ?</h3>
-              <p>Je suis candidat à l’élection municipale de Villiers-le-Bel en mars 2020. C’est une décision lourde de responsabilité. J’ai pris le temps de la réflexion et le temps de la construction.
-              C’est une combinaison personnelle, familiale et politique.
+              <p>
+                Je suis candidat à l’élection municipale de Villiers-le-Bel en mars 2020. <br>
+                C’est une décision lourde de responsabilité. J’ai pris le temps de la réflexion et le temps de la construction. <br>
+                C’est une combinaison personnelle, familiale et politique. <br>
 
-            J’apprécie la politique depuis mon adolescence. Mon engagement associatif et politique m’a conduit à être sur la liste de Jean-Louis Marsac en 2014. Je le remercie pour cette confiance accordée pour un temps. J’ai quitté l’équipe municipale en septembre 2018. J’ai appris la vie politique locale et défendu ce en quoi je crois…l’éducation et l’école de la République. L’éducation est, reste et sera pour ma part une des priorités de ce mandat afin d’accompagner nos enfants du territoire.</p>
-
-
+                J’apprécie la politique depuis mon adolescence. Mon engagement associatif et politique m’a conduit à être sur la liste de Jean-Louis Marsac en 2014. <br> 
+                Je le remercie pour cette confiance accordée pour un temps. <br> 
+                J’ai quitté l’équipe municipale en septembre 2018. J’ai appris la vie politique locale et défendu ce en quoi je crois…l’éducation et l’école de la République. L’éducation est, reste et sera pour ma part une des priorités de ce mandat afin d’accompagner nos enfants du territoire.</p>
               
             </div>
             
@@ -227,8 +232,8 @@
                 <img src="images/bankaly.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Bankaly </h3>
-                <span class="position">40 ans, gestionnaire d'actif</span>
+                <h3>Bankaly Kaba</h3>
+                <span class="position">41ans, Financier de marché</span>
               </div>
             </div>
           </div>
@@ -299,7 +304,7 @@
                 <img src="images/mariam.jpg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Maryam Arras</h3>
+                <h3>Mariam Harrat</h3>
                 <span class="position">38 ans, mère de 3 enfants</span>
               </div>
             </div>
@@ -314,11 +319,29 @@
                   <li><a href="#"><span class="icon-linkedin"></span></a></li>
                   <li><a href="#"><span class="icon-instagram"></span></a></li>
                 </ul>
-                <img src="images/carlos.jpg" alt="Image" class="img-fluid">
+                <img src="images/adama.jpeg" alt="Image" class="img-fluid">
               </figure>
               <div class="p-3">
-                <h3>Carlos Bilongo</h3>
-                <span class="position">30 ans, chef d'entreprise</span>
+                <h3>Adama Kamara</h3>
+                <span class="position">39 ans, Entrepreneur</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <figure>
+                <ul class="social">
+                  <li><a href="#"><span class="icon-facebook"></span></a></li>
+                  <li><a href="#"><span class="icon-twitter"></span></a></li>
+                  <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                  <li><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+                <img src="images/moh.jpg" alt="Image" class="img-fluid">
+              </figure>
+              <div class="p-3">
+                <h3>Mohamed Anajjar</h3>
+                <span class="position">38 ans, Comptable</span>
               </div>
             </div>
           </div>
@@ -364,14 +387,14 @@
             </a>
           </div>
 
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
             <a href="images/3.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="images/3.jpeg">
             </a>
           </div>
 
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
 
             <a href="images/4.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
@@ -381,13 +404,6 @@
           </div>
 
           <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/5.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/5.jpeg">
-            </a>
-          </div>
-
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
             <a href="images/6.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="images/6.jpeg">
@@ -401,47 +417,30 @@
             </a>
           </div>
 
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
             <a href="images/8.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="images/8.jpeg">
             </a>
           </div>
 
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/9.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/9.jpeg">
-            </a>
-          </div>
+         
 
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
             <a href="images/10.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="images/10.jpeg">
             </a>
           </div>
 
-          <div class="item brand col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/11.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/11.jpeg">
-            </a>
-          </div>
-
-          <div class="item design col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
+          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
             <a href="images/12.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
               <span class="icon-search2"></span>
               <img class="img-fluid" src="images/12.jpeg">
             </a>
           </div>
 
-          <div class="item web col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
-            <a href="images/13.jpeg" class="item-wrap fancybox" data-fancybox="gallery2">
-              <span class="icon-search2"></span>
-              <img class="img-fluid" src="images/13.jpeg">
-            </a>
-          </div>
+       
 
           <div class="item maraude_zac col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4">
             <a href="images/ma_zac1.jpeg" class="item-wrap fancybox" data-fancybox="maraude_zac">
@@ -945,10 +944,10 @@
               </div>
               <div class="col-md-3">
                 <h2 class="footer-heading mb-4">Suivez nous</h2>
-                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                <a href="https://www.facebook.com/Ma-Voix-Ma-Ville-105488487580714" class="pl-0 pr-3" target="blank"><span class="icon-facebook"></span></a>
+                <!-- <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a> -->
+                <a href="https://www.instagram.com/mavoix_maville/?hl=fr" class="pl-3 pr-3" target="blank"><span class="icon-instagram"></span></a>
+                <!-- <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a> -->
               </div>
             </div>
           </div>
@@ -991,6 +990,9 @@
   <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   
   <script src="js/main.js"></script>
