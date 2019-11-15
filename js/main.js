@@ -259,13 +259,12 @@ jQuery(document).ready(function($) {
 
 	var siteCountDown = function() {
 
-		$('#date-countdown').countdown('2020/10/10', function(event) {
+		$('#date-countdown').countdown('2020/03/15', function(event) {
 		  var $this = $(this).html(event.strftime(''
-		    + '<span class="countdown-block"><span class="label">%w</span> weeks </span>'
-		    + '<span class="countdown-block"><span class="label">%d</span> days </span>'
-		    + '<span class="countdown-block"><span class="label">%H</span> hr </span>'
-		    + '<span class="countdown-block"><span class="label">%M</span> min </span>'
-		    + '<span class="countdown-block"><span class="label">%S</span> sec</span>'));
+		    + '<span class="countdown-block"><span class="label">%D</span> jours </span>'
+		    + '<span class="countdown-block"><span class="label">%H</span> heures </span>'
+		    + '<span class="countdown-block"><span class="label">%M</span> minutes </span>'
+		    + '<span class="countdown-block"><span class="label">%S</span> secondes</span>'));
 		});
 				
 	};
@@ -357,5 +356,15 @@ jQuery(document).ready(function($) {
 
 	  return false;
 	});
+
+
+
+
+
+
+
+
+
+
 
 });
