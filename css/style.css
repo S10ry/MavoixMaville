@@ -68,8 +68,8 @@ body:after {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
   .btn.btn-primary {
-    background: #007bff;
-    border-color: #007bff;
+    background: #007968;
+    border-color: #007968;
     color: #fff; }
     .btn.btn-primary:hover {
       background: #000;
@@ -1796,12 +1796,12 @@ body:after {
   color: #343a40; }
   .filters .btn:hover {
     border-color: transparent;
-    background: #007bff;
+    background: #007968;
     color: #fff; }
   .filters .btn.active {
-    background: #007bff !important;
+    background: #007968 !important;
     color: #fff;
-    border-color: #007bff !important; }
+    border-color: #007968 !important; }
 
 .pricing {
   background: #fff;
