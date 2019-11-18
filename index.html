@@ -23,6 +23,8 @@
 
     <link rel="stylesheet" href="css/aos.css">
 
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -72,9 +74,9 @@
                     <li><a href="#team-section" class="nav-link">L'équipe</a></li>
                   </ul>
                 </li>
+                <li><a href="#program-section" class="nav-link">Thématique</a></li>
                 <li><a href="#portfolio-section" class="nav-link">Galerie</a></li>
                 <li><a href="#contact-section" class="nav-link">Nous contacter</a></li>
-                <li><a href="#timer-countdown" class="nav-link">1er tour</a></li>
               </ul>
             </nav>
           </div>
@@ -100,7 +102,42 @@
 
             
             <div data-aos="fade-up" data-aos-delay="100">
-              <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Rejoignez nous</a>
+              <!--
+              Alternative markup with data-mfp-src attribute:
+              <a href="mobile-friendly-page.html" data-mfp-src="#test-popup" class="open-popup-link">Show inline popup</a>
+              -->
+
+              <!-- Popup itself -->
+              <div id="test-popup" class="white-popup mfp-hide">
+                <p align="justify" class="text-black">
+                Mesdames, Messieurs,<br><br>
+                Je vous souhaite la bienvenue sur mon site de campagne pour les élections municipales qui auront lieu les 15 et 22 mars 2020.<br><br>
+                Je suis la tête de liste du mouvement « Ma voix, Ma ville Ensemble pour Villiers-Le-Bel ». J’ai souhaité mettre en place cet espace de partage et d’échange avec tous. Ce support permettra de construire ensemble un projet politique ambitieux, juste et réaliste de notre vie quotidienne. Suivre, échanger, participer et donner votre avis pour construire de nouvelles politiques publiques sont des actions que je vous demande pour le projet commun pour notre ville.
+                <br><br>
+
+                J’ai recruté à mes côtés une nouvelle équipe municipale de grande qualité à partir des compétences et des richesses humaines, disponible et disposée à s’engager sur les sujets importants de notre ville.
+                <br><br>
+
+                La qualité du cadre de vie de chacune et chacun quelques soit la situation économique et sociale sera un enjeu important tout en préservant notre paysage rural. Il nous faut plus que jamais attirer les investisseurs multinationaux et travailler à ancrer le développement économique sur le territoire. C’est aussi de réaliser des projets de prestige tout en relevant le défi de l’indispensable transition écologique. Les transports, la politique jeunesse, l’emploi, la politique de sécurité et les services publics seront renforcés. Je n’omets pas la question de la propreté de la ville ainsi que le traitement de la place de la voiture.
+                <br><br>
+                Villiers-Le-Bel doit être une ville bienveillante à l’égard des personnes handicapées et des retraités.
+                <br><br>
+                Enfin, il est nécessaire que vous soyez écoutés, que l’engagement public se fasse autrement, que l’initiative citoyenne soit au cœur de tout et que le pari de l’intelligence collective reste au service de l’action et de la démocratie. Je vais redéfinir le rôle et la relation des élus avec vous y compris en intégrant la possibilité de révoquer.
+                <br><br>
+                Je vous remercie et sachez que vous pouvez compter sur mon engagement total.
+                <br><br>
+                Sori DEMBÉLÉ
+                </p>
+              </div>
+
+
+
+              <br/><br/>
+
+
+
+              <!--<a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Rejoignez nous</a>-->
+              <a href="#test-popup" class="btn btn-primary mr-2 mb-2 open-popup-link">Message de Sori Dembele</a>
             </div>
           </div>
             
@@ -353,6 +390,98 @@
         </div>
       </div>
     </section>
+  <section class="site-section border-bottom bg-light" id="program-section">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-12 text-center" data-aos="fade">
+          <h2 class="section-title my-3" style="color: #000;">Thématique</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sport-culture </h5>
+              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>-->
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sécurité</h5>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Cadre de vie</h5>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Logement-Habitat</h5>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Education</h5>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Politique jeunesse</h5>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Actions sociales</h5>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Transports</h5>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Politique environnementale et écologique</h5>
+              <a href="#" class="btn btn-primary">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
 
     <section class="site-section" id="portfolio-section">
       
@@ -987,6 +1116,7 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/owl.carousel.min.js"></script>
   <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/jquery.easing.1.3.js"></script>
   <script src="js/aos.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
