@@ -69,6 +69,7 @@
           <nav class="site-navigation position-relative text-right" role="navigation">
             <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
               <li><a href="#home-section" class="nav-link">Accueil</a></li>
+              <li><a href="#calender-section" class="nav-link">Dates clés</a></li>
               <li class="has-children">
                 <a href="#about-section" class="nav-link">Qui sommes nous</a>
                 <ul class="dropdown">
@@ -79,7 +80,6 @@
               </li>
               <li><a href="#program-section" class="nav-link">Thématiques</a></li>
               <li><a href="#portfolio-section" class="nav-link">Galerie</a></li>
-              <li><a href="#calender-section" class="nav-link">Dates clés</a></li>
               <li><a href="#contact-section" class="nav-link">Nous contacter</a></li>
             </ul>
           </nav>
@@ -229,12 +229,72 @@
       </div>
     </div>
   </section>
-  <div class="site-section cta-big-image" id="about-section" style="padding-bottom: 0;">
+
+  <section class="site-section border-bottom" id="calender-section">
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-12 text-center" data-aos="fade">
+          <h2 class="section-title mb-3" style="color: #000;">Dates des réunions publiques</h2>
+        </div>
+      </div>
+
+
+      <div class="history-tl-container">
+        <ul class="tl">
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="timestamp">
+              20 janvier 2020<br> 20:00 - 22:30
+            </div>
+            <div class="item-title">Education, Jeunesse-Sports</div>
+            <div class="item-detail my-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Maison de quartier Camille Claudel</div>
+          </li>
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="timestamp">
+              21 janvier 2020<br> 20:00 - 22:30
+            </div>
+            <div class="item-title">Proximité, sécurité et vie associative</div>
+            <div class="item-detail my-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Maison Jaques Brel, Charmettes</div>
+          </li>
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="timestamp">
+              22 janvier 2020<br> 20:00 - 22:30
+            </div>
+            <div class="item-title">Cadre de vie Ecologique, environnement et developpement durable</div>
+            <div class="item-detail my-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Chanzy</div>
+          </li>
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="timestamp">
+              23 janvier 2020<br> 20:00 - 22:30
+            </div>
+            <div class="item-title">Logement-Habitat, Transports, Cultures</div>
+            <div class="item-detail my-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Maison de quartier Boris Vian</div>
+          </li>
+          <li class="tl-item" ng-repeat="item in retailer_history">
+            <div class="timestamp">
+              24 janvier 2020<br> 20:00 - 22:30
+            </div>
+            <div class="item-title">Affaires sociales, formation et insertions</div>
+            <div class="item-detail my-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Ecole Ferdinand Buisson</div>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+
+
+
+
+  <div class="site-section cta-big-image border-bottom" id="about-section" style="padding-bottom: 0;">
     <div class="container">
       <div class="row mb-5">
         <div class="col-12 text-center" data-aos="fade">
           <h2 class="section-title mb-3" style="color: #000;">Qui sommes nous ?</h2>
-          <hr>
         </div>
       </div>
       <div class="row">
@@ -519,10 +579,10 @@
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
+
   <section class="site-section border-bottom" id="soutien-section">
     <div class="container">
       <div class="row mb-5 justify-content-center">
@@ -764,61 +824,6 @@
 
       </div>
     </div>
-
-  </section>
-  <section class="site-section" id="calender-section">
-    <div class="container">
-      <div class="row mb-3">
-        <div class="col-12 text-center" data-aos="fade">
-          <h2 class="section-title mb-3" style="color: #000;">Dates des réunions publique</h2>
-        </div>
-      </div>
-
-
-      <div class="history-tl-container">
-        <ul class="tl">
-          <li class="tl-item" ng-repeat="item in retailer_history">
-            <div class="timestamp">
-              20 janvier 2020<br> 20:00 - 22:30
-            </div>
-            <div class="item-title">Education, Jeuneusses-Sports</div>
-            <div class="item-detail my-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Maison de quartier Camille Claudel</div>
-          </li>
-          <li class="tl-item" ng-repeat="item in retailer_history">
-            <div class="timestamp">
-              21 janvier 2020<br> 20:00 - 22:30
-            </div>
-            <div class="item-title">Proximité, sécurité et vie associative</div>
-            <div class="item-detail my-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Maison Jaques Brel, Charmettes</div>
-          </li>
-          <li class="tl-item" ng-repeat="item in retailer_history">
-            <div class="timestamp">
-              22 janvier 2020<br> 20:00 - 22:30
-            </div>
-            <div class="item-title">Cadre de vie Ecologique, environnement et developpement durable</div>
-            <div class="item-detail my-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Chanzy</div>
-          </li>
-          <li class="tl-item" ng-repeat="item in retailer_history">
-            <div class="timestamp">
-              23 janvier 2020<br> 20:00 - 22:30
-            </div>
-            <div class="item-title">Logement-Habitat, Transports, Cultures</div>
-            <div class="item-detail my-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Maison de quartier Boris Vian</div>
-          </li>
-          <li class="tl-item" ng-repeat="item in retailer_history">
-            <div class="timestamp">
-              24 janvier 2020<br> 20:00 - 22:30
-            </div>
-            <div class="item-title">Affaires sociales, formation et insertions</div>
-            <div class="item-detail my-1"><i class="fa fa-map-marker" aria-hidden="true"></i> Ecole Ferdinand Buisson</div>
-          </li>
-        </ul>
-
-      </div>
-
-    </div>
-
-
 
   </section>
 
